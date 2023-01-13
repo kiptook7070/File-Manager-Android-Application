@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/bckcmd_justforpadding" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/btnpanel" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:id="@+id/bckcmd_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:freezesText="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        <TextView android:id="@+id/bckcmd_filename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minLines="2" android:freezesText="true" android:layout_toLeftOf="@+id/bckcmd_percent" android:layout_below="@+id/bckcmd_subtitle" android:layout_alignLeft="@+id/bckcmd_progress"/>
+        <TextView android:id="@+id/bckcmd_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4sp" android:freezesText="true" android:layout_below="@+id/bckcmd_subtitle" android:layout_alignRight="@+id/bckcmd_progress"/>
+        <ProgressBar android:id="@+id/bckcmd_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/bckcmd_filename" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" style="?android:attr/progressBarStyleHorizontal"/>
+        <ListView android:id="@+id/bckcmd_msglist" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_above="@+id/bckcmd_errcount" android:layout_below="@+id/bckcmd_progress" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+        <TextView android:id="@+id/bckcmd_errcount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="10dp" android:freezesText="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/btnpanel" style="@style/ButtonPanelOuterLayout">
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/btncancel" android:text="@string/btn_cancel" android:onClick="btncancel_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/btnbackground" android:text="@string/btn_background" android:onClick="btnbackground_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

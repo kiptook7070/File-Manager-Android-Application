@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rbigsoft.sn.unzip">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_app_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:noHistory="true" />
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:noHistory="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+
+
+        <activity android:name="com.rbigsoft.unrar.adapter.SflatActivity"></activity>
+        <activity android:name=".activity.FileActivity" />
+        <activity android:name=".activity.MainLiteVersionActivity" />
+        <activity
+            android:name="com.rbigsoft.unrar.activity.BrowseSdcardActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider_paths"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".activity.MainUiActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="application/octet-stream"
+                    android:pathPattern=".*\\.rar" />
+            </intent-filter>
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="application/x-rar-compressed"
+                    android:pathPattern=".*\\.rar" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.rar"
+                    android:scheme="content" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.rar"
+                    android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="*/*" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.rar"
+                    android:scheme="content" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.rar"
+                    android:scheme="file" />
+            </intent-filter>
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="application/octet-stream"
+                    android:pathPattern=".*\\.zip" />
+            </intent-filter>
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="application/zip"
+                    android:pathPattern=".*\\.zip" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.zip"
+                    android:scheme="content" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.zip"
+                    android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="*/*" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.zip"
+                    android:scheme="content" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.zip"
+                    android:scheme="file" />
+            </intent-filter>
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="application/octet-stream"
+                    android:pathPattern=".*\\.7z" />
+            </intent-filter>
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="application/x-7z-compressed"
+                    android:pathPattern=".*\\.7z" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.7z"
+                    android:scheme="content" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.7z"
+                    android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="*/*" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.7z"
+                    android:scheme="content" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.7z"
+                    android:scheme="file" />
+            </intent-filter>
+        </activity>
+
+
+<!--        -->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.GetArcNameActivity"-->
+<!--            android:label="@string/arcopt_title"-->
+<!--            android:parentActivityName="com.rarlab.rar.MainActivity"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge">-->
+<!--            <meta-data-->
+<!--                android:name="android.support.PARENT_ACTIVITY"-->
+<!--                android:value="com.rarlab.rar.MainActivity" />-->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.GetExtrOptActivity"-->
+<!--            android:label="@string/extropt_title"-->
+<!--            android:parentActivityName="com.rarlab.rar.MainActivity"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge">-->
+<!--            <meta-data-->
+<!--                android:name="android.support.PARENT_ACTIVITY"-->
+<!--                android:value="com.rarlab.rar.MainActivity" />-->
+<!--        </activity>-->
+<!--        <activity android:name="com.rarlab.rar.Browse" />-->
+<!--        <activity android:name="com.rarlab.rar.BackgroundCommand" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.AskReplace"-->
+<!--            android:label="@string/ask_replace_title"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.Help"-->
+<!--            android:label="@string/help_title" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.GetPassword"-->
+<!--            android:label="@string/get_password_title"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.AskNextVolume"-->
+<!--            android:label="@string/ask_next_vol_title"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.AskCreateVolume"-->
+<!--            android:label="@string/ask_create_vol_title"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.ProfilesAdd"-->
+<!--            android:label="@string/profiles_add_title"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.ProfilesOrganize"-->
+<!--            android:label="@string/profiles_organize_title"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.FavoritesAdd"-->
+<!--            android:label="@string/favorites_add_title"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.FavoritesOrganize"-->
+<!--            android:label="@string/favorites_organize_title"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.CmdRepair"-->
+<!--            android:label="@string/maincmd_repair"-->
+<!--            android:theme="@style/DarkTheme_Dialog" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.NewFolder"-->
+<!--            android:theme="@style/DarkTheme_Dialog" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.SelectionMenu"-->
+<!--            android:theme="@style/DarkTheme_Dialog" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.SettingsActivity"-->
+<!--            android:label="@string/settings_title" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.AboutRAR"-->
+<!--            android:label="@string/about_rar_title"-->
+<!--            android:theme="@style/DarkTheme_Dialog" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.CmdRename"-->
+<!--            android:theme="@style/DarkTheme_Dialog" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.InfoFiles"-->
+<!--            android:label="@string/maincmd_information" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.InfoArchive"-->
+<!--            android:label="@string/maincmd_information" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.InfoComment"-->
+<!--            android:label="@string/info_arc_comment" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.ExternalCard"-->
+<!--            android:label="@string/extcard_title"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.OneTimeNotify"-->
+<!--            android:theme="@style/DarkTheme_DialogWhenLarge" />-->
+<!--        <activity-->
+<!--            android:name="com.rarlab.rar.UpMultiple"-->
+<!--            android:label="@string/up_multiple_levels"-->
+<!--            android:theme="@style/DarkTheme_Dialog" />-->
+
+
+
+
+
+
+
+
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter><action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

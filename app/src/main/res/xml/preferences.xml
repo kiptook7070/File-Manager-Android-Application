@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="prefs_about"
+        android:title="@string/prefs_about_title">
+        <intent
+            android:targetClass="com.rarlab.rar.AboutRAR"
+            android:targetPackage="com.rarlab.rar" />
+    </Preference>
+    <ListPreference
+        android:defaultValue="Dark"
+        android:entries="@array/theme_names"
+        android:entryValues="@array/theme_values"
+        android:key="prefs_theme"
+        android:title="@string/prefs_theme_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="prefs_sound"
+        android:summary="@string/prefs_sound_summary"
+        android:title="@string/prefs_sound_title" />
+    <Preference
+        android:key="prefs_start_folder"
+        android:title="@string/prefs_startup_title" />
+    <ListPreference
+        android:defaultValue="Name"
+        android:entries="@array/list_sort_order"
+        android:entryValues="@array/list_sort_values"
+        android:key="prefs_sort"
+        android:title="@string/prefs_sort_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="prefs_arcfirst"
+        android:summary="@string/prefs_arcfirst_summary"
+        android:title="@string/prefs_arcfirst_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="prefs_hidden_files"
+        android:summary="@string/prefs_hidden_files_summary"
+        android:title="@string/prefs_hidden_files_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="prefs_thumbnails"
+        android:summary="@string/prefs_thumbnails_summary"
+        android:title="@string/prefs_thumbnails_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="prefs_archistory"
+        android:summary="@string/prefs_archistory_summary"
+        android:title="@string/prefs_archistory_title" />
+</PreferenceScreen>

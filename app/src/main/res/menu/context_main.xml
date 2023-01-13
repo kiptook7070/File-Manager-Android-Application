@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_mainctx_open_archive" android:title="@string/menu_mainctx_open_archive"/>
+    <item android:id="@+id/menu_mainctx_add_archive"/>
+    <item android:id="@+id/menu_mainctx_add_options" android:title="@string/menu_mainctx_add_options"/>
+    <item android:id="@+id/menu_mainctx_extr_folder"/>
+    <item android:id="@+id/menu_mainctx_extr_here" android:title="@string/menu_mainctx_extr_here"/>
+    <item android:id="@+id/menu_mainctx_extr_options" android:title="@string/menu_mainctx_extr_options"/>
+    <item android:id="@+id/menu_mainctx_copy" android:title="@string/menu_mainctx_copy_clipboard"/>
+    <item android:id="@+id/menu_mainctx_cut" android:title="@string/menu_mainctx_cut"/>
+    <item android:id="@+id/menu_mainctx_paste" android:title="@string/menu_mainctx_paste"/>
+    <item android:id="@+id/menu_mainctx_new_folder" android:title="@string/menu_mainctx_new_folder"/>
+    <item android:id="@+id/menu_mainctx_delete" android:title="@string/menu_mainctx_delete"/>
+    <item android:id="@+id/menu_mainctx_rename" android:title="@string/menu_mainctx_rename"/>
+</menu>

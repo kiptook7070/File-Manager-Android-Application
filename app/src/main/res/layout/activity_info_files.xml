@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/bckcmd_justforpadding" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/btnpanel" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <EditText android:textSize="14sp" android:id="@+id/info_file_pathname" android:background="#00000000" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:cursorVisible="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:inputType="none" android:imeOptions="actionDone" android:textIsSelectable="true"/>
+        <TextView android:id="@+id/info_file_count_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_files" android:layout_below="@+id/info_file_pathname" android:layout_alignParentLeft="true"/>
+        <TextView android:id="@+id/info_file_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:freezesText="true" android:layout_below="@+id/info_file_pathname" android:layout_alignParentRight="true"/>
+        <TextView android:id="@+id/info_folder_count_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_folders" android:layout_below="@+id/info_file_count_title" android:layout_alignParentLeft="true"/>
+        <TextView android:id="@+id/info_folder_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:freezesText="true" android:layout_alignTop="@+id/info_folder_count_title" android:layout_alignParentRight="true"/>
+        <TextView android:id="@+id/info_total_size_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_total_size" android:layout_below="@+id/info_folder_count_title" android:layout_alignParentLeft="true"/>
+        <TextView android:id="@+id/info_total_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:freezesText="true" android:layout_alignTop="@+id/info_total_size_title" android:layout_alignParentRight="true"/>
+        <ProgressBar android:id="@+id/info_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_below="@+id/info_total_size_title" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" style="?android:attr/progressBarStyleHorizontal"/>
+        <TextView android:id="@+id/info_calc_checksum_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/info_calc_checksum" android:layout_below="@+id/info_progress" android:layout_centerHorizontal="true"/>
+        <LinearLayout android:id="@+id/info_checksum_buttons" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/info_calc_checksum_title" android:layout_alignParentLeft="true">
+            <Button android:id="@+id/info_md5" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/info_md5" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+            <Button android:id="@+id/info_sha1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/info_sha1" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+            <Button android:id="@+id/info_sha256" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/info_sha256" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/info_save_buttons" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_below="@+id/info_checksum_buttons" android:layout_alignParentLeft="true">
+            <Button android:id="@+id/info_crc32" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/info_crc32" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+            <Button android:id="@+id/info_save" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_save" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+            <Button android:id="@+id/info_copy" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/btn_copy" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+        </LinearLayout>
+        <ListView android:id="@+id/info_checksum_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="8dp" android:layout_below="@+id/info_save_buttons" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:fastScrollEnabled="true"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/btnpanel" style="@style/ButtonPanelOuterLayout">
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/btnclose" android:text="@string/btn_close" android:onClick="btnclose_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/btnhelp" android:text="@string/btn_help" android:onClick="btnhelp_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

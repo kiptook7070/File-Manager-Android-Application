@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_mainctx_new_folder" android:title="@string/menu_mainctx_new_folder"/>
+</menu>

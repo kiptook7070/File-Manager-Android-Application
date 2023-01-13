@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/browse_justforpadding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnpanel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/browse_selectedname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+
+        <ListView
+            android:id="@+id/browse_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/browse_savename_title"
+            android:layout_below="@+id/browse_selectedname"
+            android:layout_alignParentLeft="true"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/browse_savename_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/browse_savename"
+            android:layout_alignParentLeft="true"
+            android:text="@string/file_name" />
+
+        <EditText
+            android:id="@+id/browse_savename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:imeOptions="actionDone"
+            android:inputType="textUri" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btnpanel"
+        style="@style/ButtonPanelOuterLayout">
+
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+
+            <Button
+                android:id="@+id/btncancel"
+                style="@style/ButtonPanelButton"
+                android:onClick="btncancel_clicked"
+                android:text="@string/btn_cancel" />
+
+            <Button
+                android:id="@+id/btnhelp"
+                style="@style/ButtonPanelButton"
+                android:onClick="btnhelp_clicked"
+                android:text="@string/btn_help" />
+
+            <Button
+                android:id="@+id/btnok"
+                style="@style/ButtonPanelButton"
+                android:onClick="btnok_clicked"
+                android:text="@string/btn_save" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

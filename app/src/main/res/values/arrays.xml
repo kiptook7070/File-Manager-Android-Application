@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ListEncyptionType">
+        <item>Zip standard</item>
+        <item>AES 128</item>
+        <item>AES 256</item>
+    </array>
+    <array name="fileExistOverriteType">
+        <item>Yes</item>
+        <item>No</item>
+        <item>All</item>
+        <item>Never</item>
+    </array>
+    <array name="listeRaditeCompress">
+        <item>Normal</item>
+        <item>Low (Fast)</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Max (Slow)</item>
+        <item>Store (no compression)</item>
+    </array>
+    <array name="list_sort_order">
+        <item>@string/sort_by_name</item>
+        <item>@string/sort_by_type</item>
+        <item>@string/sort_by_size</item>
+        <item>@string/sort_by_time</item>
+        <item>@string/sort_by_name_reverse</item>
+        <item>@string/sort_by_type_reverse</item>
+        <item>@string/sort_by_size_reverse</item>
+        <item>@string/sort_by_time_reverse</item>
+    </array>
+    <array name="list_sort_values">
+        <item>Name</item>
+        <item>Type</item>
+        <item>Size</item>
+        <item>Time</item>
+        <item>NameReverse</item>
+        <item>TypeReverse</item>
+        <item>SizeReverse</item>
+        <item>TimeReverse</item>
+    </array>
+    <array name="theme_names">
+        <item>@string/theme_dark</item>
+        <item>@string/theme_light</item>
+    </array>
+    <array name="theme_values">
+        <item>Dark</item>
+        <item>Light</item>
+    </array>
+</resources>

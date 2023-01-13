@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp">
+
+    <ImageView
+        android:id="@+id/filelist_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:contentDescription="@null"
+        android:paddingRight="4dp" />
+
+    <TextView
+        android:id="@+id/filelist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/filelist_checkbox"
+        android:layout_toRightOf="@+id/filelist_icon"
+        android:paddingTop="8dp"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filelist_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/filelist_icon"
+        android:paddingBottom="5dp"
+        android:textIsSelectable="false"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/filelist_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/filelist_checkbox"
+        android:layout_toRightOf="@+id/filelist_size"
+        android:gravity="right"
+        android:paddingBottom="5dp"
+        android:textIsSelectable="false"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:id="@+id/filelist_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:button="@android:color/transparent"
+        android:drawableRight="@drawable/list_selectall"
+        android:paddingLeft="11dp"
+        android:paddingRight="12dp" />
+</RelativeLayout>

@@ -1,0 +1,220 @@
+
+l
+java:S1871¨"IThis case's code block is the same as the block for the case on line 156.(ÀªÜ–ÿÿÿÿÿ8àİ´Ê.
+p
+java:S1871‘"MThis branch's code block is the same as the block for the branch on line 907.(ÖÔ›¸ÿÿÿÿÿ8Òğ›¶Ê.
+F
+java:S1604û"(Make this anonymous inner class a lambda(»ä”ö8Ã¸Â·Ê.
+x
+java:S1450k"[Remove the "imgSearchKey" field and declare it as a local variable in the relevant methods.(å®…©8Ø¼üÊ.
+r
+java:S1450c"URemove the "lvFile" field and declare it as a local variable in the relevant methods.(èÈñ¨8ğ¯Ù´Ê.
+F	java:S108…")Either remove or fill this block of code.(”ı¾8Ã¸Â·Ê.
+p
+java:S1871·"MThis branch's code block is the same as the block for the branch on line 819.(¯ùßıÿÿÿÿ8Òğ›¶Ê.
+p
+java:S1871ë"MThis branch's code block is the same as the block for the branch on line 863.(—æÇ¤øÿÿÿÿ8Òğ›¶Ê.
+q
+java:S4042‚"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8Ã¸Â·Ê.
+p
+java:S1871µ"MThis branch's code block is the same as the block for the branch on line 819.(ŒÑ˜ğûÿÿÿÿ8Ã¸Â·Ê.
+p
+java:S1871“"MThis branch's code block is the same as the block for the branch on line 907.(ºïóÖıÿÿÿÿ8Òğ›¶Ê.
+p
+java:S1871Ñ"MThis branch's code block is the same as the block for the branch on line 835.(Šƒ €ùÿÿÿÿ8Òğ›¶Ê.
+k
+java:S1871É"MThis branch's code block is the same as the block for the branch on line 835.(‚‹8Òğ›¶Ê.
+p
+java:S1871—"MThis branch's code block is the same as the block for the branch on line 907.(ïó¡—ıÿÿÿÿ8Òğ›¶Ê.
+n
+java:S1301ş"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8Ã¸Â·Ê.
+p
+java:S1871Ë"MThis branch's code block is the same as the block for the branch on line 328.(üô½€ÿÿÿÿÿ8àİ´Ê.
+[
+java:S3878¶"8Remove this array creation and simply pass the elements.(™’º¦üÿÿÿÿ8àİ´Ê.
+l
+java:S1192Â"IDefine a constant instead of duplicating this literal "compress" 4 times.(Ó ·ÿûÿÿÿÿ8àİ´Ê.
+[
+java:S3878¹"8Remove this array creation and simply pass the elements.(™’º¦üÿÿÿÿ8àİ´Ê.
+“
+java:S1319¨"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¦ë¬ûıÿÿÿÿ8Ã¸Â·Ê.
+L
+java:S1125")Remove the literal "false" boolean value.(Û·¶‚ùÿÿÿÿ8àİ´Ê.
+[
+java:S3878­"8Remove this array creation and simply pass the elements.(™’º¦üÿÿÿÿ8àİ´Ê.
+j
+java:S3252Ü"LUse static access with "android.content.Context" for "INPUT_METHOD_SERVICE".(êÑ×ã8àİ´Ê.
+D	java:S131İ""Add a default case to this switch.(×“¾ñùÿÿÿÿ8àİ´Ê.
+B
+java:S1659d"%Declare "flUnZip" on a separate line.(†Ã¿»8Ø¼üÊ.
+[
+java:S3878¦"8Remove this array creation and simply pass the elements.(™’º¦üÿÿÿÿ8àİ´Ê.
+p
+java:S1871Ø"MThis branch's code block is the same as the block for the branch on line 341.(ÏÆ²áÿÿÿÿÿ8àİ´Ê.
+p
+java:S1871ã"MThis branch's code block is the same as the block for the branch on line 863.(¹‰çÁûÿÿÿÿ8Òğ›¶Ê.
+X
+java:S1161Ô":Add the "@Override" annotation above this method signature(Ã“ˆ¦8Òğ›¶Ê.
+k
+java:S1871™"MThis branch's code block is the same as the block for the branch on line 907.(ÏŒÔ‚8Òğ›¶Ê.
+D	java:S131‘""Add a default case to this switch.(¨¸ñúÿÿÿÿ8àİ´Ê.
+W
+java:S1161š":Add the "@Override" annotation above this method signature(Á…‘8àİ´Ê.
+k
+java:S1871Û"MThis branch's code block is the same as the block for the branch on line 835.(Ôö×—8Òğ›¶Ê.
+W
+java:S1161Æ":Add the "@Override" annotation above this method signature(Á…‘8àİ´Ê.
+k
+java:S1871å"MThis branch's code block is the same as the block for the branch on line 863.(ˆ»¤Ú8Òğ›¶Ê.
+q
+java:S1450e"TRemove the "tvTag" field and declare it as a local variable in the relevant methods.(–úôÕ8Ø¼üÊ.
+w
+java:S1192Ï"TDefine a constant instead of duplicating this literal "THREAD LIST RUNNING" 3 times.(ğ¸¿œûÿÿÿÿ8àİ´Ê.
+p
+java:S1871Í"MThis branch's code block is the same as the block for the branch on line 586.(òÉ§ùÿÿÿÿ8àİ´Ê.
+l
+java:S1871¯"IThis case's code block is the same as the block for the case on line 156.(øúÿÿÿÿ8àİ´Ê.
+X
+java:S1161©":Add the "@Override" annotation above this method signature(Ã“ˆ¦8àİ´Ê.
+k
+java:S1871á"MThis branch's code block is the same as the block for the branch on line 863.(İ¹¦º8Ã¸Â·Ê.
+[
+java:S3878€"8Remove this array creation and simply pass the elements.(ï³´şşÿÿÿÿ8àİ´Ê.
+j
+java:S1871"MThis branch's code block is the same as the block for the branch on line 907.(Ê×İ8Òğ›¶Ê.
+j
+java:S1871Å"MThis branch's code block is the same as the block for the branch on line 835.(¾şÑ8Ã¸Â·Ê.
+k
+java:S1871Ó"MThis branch's code block is the same as the block for the branch on line 835.(ÍÿŸ¥8Òğ›¶Ê.
+X
+java:S1068^"6Remove this unused "fileSortComparator" private field.(÷ÍÂÓúÿÿÿÿ8Ú›¸Ê.
+Ÿ
+java:S1186–"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±8àİ´Ê.
+g
+java:S1871µ"IThis case's code block is the same as the block for the case on line 156.(«Ä×ò8àİ´Ê.
+p
+java:S1871À"MThis branch's code block is the same as the block for the branch on line 573.(Ì¦È¿ùÿÿÿÿ8àİ´Ê.
+p
+java:S1871ç"MThis branch's code block is the same as the block for the branch on line 863.(îØ¥•şÿÿÿÿ8Òğ›¶Ê.
+k
+java:S1871"MThis branch's code block is the same as the block for the branch on line 907.(ùîó8Ã¸Â·Ê.
+p
+java:S1871‡"MThis branch's code block is the same as the block for the branch on line 879.(ÓÏ‚¬ıÿÿÿÿ8Òğ›¶Ê.
+u
+java:S3776¨"RRefactor this method to reduce its Cognitive Complexity from 98 to the 15 allowed.(¦ë¬ûıÿÿÿÿ8Ã¸Â·Ê.
+[
+java:S3878 "8Remove this array creation and simply pass the elements.(™’º¦üÿÿÿÿ8àİ´Ê.
+
+java:S1319æ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¼¢ä>8Òğ›¶Ê.
+€
+java:S1450n"^Remove the "shareDeleteFile" field and declare it as a local variable in the relevant methods.(Û²ÉÄøÿÿÿÿ8¤¼½’Ê.
+{
+java:S1450k"^Remove the "imgCancelSearch" field and declare it as a local variable in the relevant methods.(å®…©8¤¼½’Ê.
+p
+java:S1871ƒ"MThis branch's code block is the same as the block for the branch on line 879.(°éÀ€ıÿÿÿÿ8Òğ›¶Ê.
+]	java:S899‚";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8Ã¸Â·Ê.
+h
+java:S11282"FRemove this unused import 'com.rbigsoft.unrar.model.document.Fichier'.(„Ó¡„ûÿÿÿÿ8ÅæØ³Ê.
+l
+java:S1871¢"IThis case's code block is the same as the block for the case on line 156.(ØÑ‹Âÿÿÿÿÿ8àİ´Ê.
+[
+java:S3878³"8Remove this array creation and simply pass the elements.(™’º¦üÿÿÿÿ8àİ´Ê.
+t
+java:S1192Ä"WDefine a constant instead of duplicating this literal "THREAD EXTRACT RUNNING" 3 times.(İòÜ8àİ´Ê.
+W
+java:S1161Î":Add the "@Override" annotation above this method signature(“µ{8àİ´Ê.
+k
+java:S1871…"MThis branch's code block is the same as the block for the branch on line 879.(î¬ÑË8Òğ›¶Ê.
+F
+java:S1604÷"(Make this anonymous inner class a lambda(‡†ö8àİ´Ê.
+r
+java:S1450d"URemove the "flZzip" field and declare it as a local variable in the relevant methods.(†Ã¿»8ëİ…ÜÉ.
+X	java:S110L"<This class has 9 parents which is greater than 5 authorized.(¡Ò8Ø¼üÊ.
+k
+java:S1871û"MThis branch's code block is the same as the block for the branch on line 879.(˜ü´÷8Òğ›¶Ê.
+k
+java:S1871é"MThis branch's code block is the same as the block for the branch on line 863.(»„û8Òğ›¶Ê.
+p
+java:S1871Ë"MThis branch's code block is the same as the block for the branch on line 835.(¢¼Ğ¨øÿÿÿÿ8Òğ›¶Ê.
+k
+java:S1871»"MThis branch's code block is the same as the block for the branch on line 819.(”Ì¾8Òğ›¶Ê.
+k
+java:S1871ñ"MThis branch's code block is the same as the block for the branch on line 879.(±æÕõ8Ã¸Â·Ê.
+F
+java:S1604‡"(Make this anonymous inner class a lambda(Œ”€û8àİ´Ê.
+?	java:S131›""Add a default case to this switch.(ÜŸ•8àİ´Ê.
+k
+java:S1871å"MThis branch's code block is the same as the block for the branch on line 354.(Ëšå¿8àİ´Ê.
+k
+java:S1871ù"MThis branch's code block is the same as the block for the branch on line 879.(ãéÃ8Òğ›¶Ê.
+K
+java:S3740i"/Provide the parametrized type for this generic.( ¡°\8Ø¼üÊ.
+D
+java:S1659k"'Declare "imgSearch" on a separate line.(å®…©8Ø¼üÊ.
+W
+java:S1161Ç":Add the "@Override" annotation above this method signature(Á…‘8àİ´Ê.
+k
+java:S1871ÿ"MThis branch's code block is the same as the block for the branch on line 879.(É´ó8Òğ›¶Ê.
+9
+java:S3878"Remove this array creation.(‘Ö‹†8àİ´Ê.
+k
+java:S1871ı"MThis branch's code block is the same as the block for the branch on line 879.(ëüŞª8Òğ›¶Ê.
+G
+java:S1659k"*Declare "imgSearchKey" on a separate line.(å®…©8Ø¼üÊ.
+p
+java:S1871Ç"MThis branch's code block is the same as the block for the branch on line 835.(š¿ÖŸıÿÿÿÿ8Òğ›¶Ê.
+F
+java:S1125ú"(Remove the literal "true" boolean value.(ŞÓÌ8àİ´Ê.
+O
+java:S1128D"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ú›¸Ê.
+p
+java:S1871×"MThis branch's code block is the same as the block for the branch on line 835.(ÃÄ‰‡ıÿÿÿÿ8Òğ›¶Ê.
+k
+java:S1871Í"MThis branch's code block is the same as the block for the branch on line 835.(ëô–á8Òğ›¶Ê.
+p
+java:S1871"MThis branch's code block is the same as the block for the branch on line 879.(ªÆÒÅøÿÿÿÿ8Òğ›¶Ê.
+p
+java:S1871ó"MThis branch's code block is the same as the block for the branch on line 879.(ò–şÿÿÿÿ8Òğ›¶Ê.
+F
+java:S1604ñ"(Make this anonymous inner class a lambda(™çû8àİ´Ê.
+j
+java:S1871Ï"MThis branch's code block is the same as the block for the branch on line 835.(ÄÛıa8Òğ›¶Ê.
+U
+java:S1068n"3Remove this unused "shareDeleteFile" private field.(Û²ÉÄøÿÿÿÿ8¤¼½’Ê.
+n
+java:S1301‘"KReplace this "switch" statement by "if" statements to increase readability.(¨¸ñúÿÿÿÿ8àİ´Ê.
+F	java:S108")Either remove or fill this block of code.(”ı¾8àİ´Ê.
+E	java:S108ç")Either remove or fill this block of code.(°¡şl8àİ´Ê.
+k
+java:S1871Õ"MThis branch's code block is the same as the block for the branch on line 835.(ÔŞã¹8Òğ›¶Ê.
+b
+java:S3398ç"?Move this method into the anonymous class declared at line 270.(áÓ½Õûÿÿÿÿ8àİ´Ê.
+K
+java:S1604…"(Make this anonymous inner class a lambda(İï­¶úÿÿÿÿ8àİ´Ê.
+u
+java:S1450k"XRemove the "imgSearch" field and declare it as a local variable in the relevant methods.(å®…©8Ø¼üÊ.
+h
+java:S11281"FRemove this unused import 'com.rbigsoft.unrar.model.document.Dossier'.(ºšûùÿÿÿÿ8ÂÇÓŞÉ.
+T
+java:S1128E"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ôÑÔ¸Ê.
+k
+java:S1871õ"MThis branch's code block is the same as the block for the branch on line 879.(½”Îˆ8Òğ›¶Ê.
+[
+java:S3878Æ"8Remove this array creation and simply pass the elements.(™’º¦üÿÿÿÿ8àİ´Ê.
+|
+java:S1104i"`Make elementsSelectionnes a static final constant or non-public and provide accessors if needed.( ¡°\8Ø¼üÊ.
+k
+java:S1871Ú"MThis branch's code block is the same as the block for the branch on line 599.(ÁËŞ×8àİ´Ê.
+p
+java:S1871¹"MThis branch's code block is the same as the block for the branch on line 819.(üÚ–ˆüÿÿÿÿ8Òğ›¶Ê.
+D	java:S131ş""Add a default case to this switch.(øå´¡ÿÿÿÿÿ8Ã¸Â·Ê.
+s
+java:S1450b"VRemove the "imgBack" field and declare it as a local variable in the relevant methods.(¿»àÅ8’ÙÍĞÉ.
+k
+java:S1871•"MThis branch's code block is the same as the block for the branch on line 907.(‹¶É8Òğ›¶Ê.
+p
+java:S1871÷"MThis branch's code block is the same as the block for the branch on line 879.(–êÈÿÿÿÿÿ8Òğ›¶Ê.
+p
+java:S1871Ù"MThis branch's code block is the same as the block for the branch on line 835.(’›‘øÿÿÿÿ8Òğ›¶Ê.
+¤
+java:S1186›"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê¥¾àûÿÿÿÿ8àİ´Ê.

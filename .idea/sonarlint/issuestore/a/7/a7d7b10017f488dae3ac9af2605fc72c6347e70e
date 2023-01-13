@@ -1,0 +1,41 @@
+
+@
+java:S1659"%Declare "llVideo" on a separate line.(×Ü…±ýÿÿÿÿ
+q
+java:S1450"VRemove the "llImage" field and declare it as a local variable in the relevant methods.(×Ü…±ýÿÿÿÿ
+u
+java:S1450"ZRemove the "llAllFolder" field and declare it as a local variable in the relevant methods.(×Ü…±ýÿÿÿÿ
+W
+java:S1161J":Add the "@Override" annotation above this method signature(¯öúÈ8ž½Ø‡Ê.
+D
+java:S1659")Declare "llAllFolder" on a separate line.(×Ü…±ýÿÿÿÿ
+T
+java:S1128	">Remove this unused import 'android.content.BroadcastReceiver'.(Ãðõð
+D
+java:S1481M"'Remove this unused "i2" local variable.(¢õ’ˆ8ž½Ø‡Ê.
+t
+java:S1450"YRemove the "llDownload" field and declare it as a local variable in the relevant methods.(×Ü…±ýÿÿÿÿ
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(öÝ‚Ø
+q
+java:S1450"VRemove the "llMusic" field and declare it as a local variable in the relevant methods.(×Ü…±ýÿÿÿÿ
+C
+java:S1659"(Declare "llCompress" on a separate line.(×Ü…±ýÿÿÿÿ
+x
+java:S1450"VRemove the "btnRate" field and declare it as a local variable in the relevant methods.(âƒÇŸÿÿÿÿÿ8€“â‰Ê.
+q
+java:S1450"VRemove the "llVideo" field and declare it as a local variable in the relevant methods.(×Ü…±ýÿÿÿÿ
+t
+java:S1450"YRemove the "llDocument" field and declare it as a local variable in the relevant methods.(×Ü…±ýÿÿÿÿ
+<	java:S131S""Add a default case to this switch.(×“¾ñùÿÿÿÿ
+t
+java:S1450"YRemove the "llCompress" field and declare it as a local variable in the relevant methods.(×Ü…±ýÿÿÿÿ
+@
+java:S1659"%Declare "llMusic" on a separate line.(×Ü…±ýÿÿÿÿ
+>
+java:S1659"#Declare "llApk" on a separate line.(×Ü…±ýÿÿÿÿ
+C
+java:S1659"(Declare "llDocument" on a separate line.(×Ü…±ýÿÿÿÿ
+C
+java:S1659"(Declare "llDownload" on a separate line.(×Ü…±ýÿÿÿÿ
+o
+java:S1450"TRemove the "llApk" field and declare it as a local variable in the relevant methods.(×Ü…±ýÿÿÿÿ

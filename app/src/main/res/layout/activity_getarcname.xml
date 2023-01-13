@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/getarc_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnpanel"
+        android:layout_marginTop="6dp">
+
+        <androidx.viewpager.widget.PagerTabStrip
+            android:id="@+id/pager_tab_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#2080a0"
+            android:textColor="#fff" />
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/btnpanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+
+            <Button
+                android:id="@+id/btncancel"
+                style="@style/ButtonPanelButton"
+                android:onClick="btncancel_clicked"
+                android:text="@string/btn_cancel" />
+
+            <Button
+                android:id="@+id/btnprofiles"
+                style="@style/ButtonPanelButton"
+                android:onClick="btnprofiles_clicked"
+                android:text="@string/btn_profiles" />
+
+            <Button
+                android:id="@+id/btnhelp"
+                style="@style/ButtonPanelButton"
+                android:onClick="btnhelp_clicked"
+                android:text="@string/btn_help" />
+
+            <Button
+                android:id="@+id/btnok"
+                style="@style/ButtonPanelButton"
+                android:onClick="btnok_clicked"
+                android:text="@string/btn_ok" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

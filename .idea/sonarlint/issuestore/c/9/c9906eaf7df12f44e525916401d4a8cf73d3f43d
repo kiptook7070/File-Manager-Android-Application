@@ -1,0 +1,53 @@
+
+e
+java:S1104"PMake diag a static final constant or non-public and provide accessors if needed.(’Ú­
+P
+java:S2274…":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM
+C
+java:S1604;"(Make this anonymous inner class a lambda(®Øëïûÿÿÿÿ
+—
+java:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­Ò¶æ
+]
+java:S2142†"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+s
+java:S1104%"WMake fileGetList a static final constant or non-public and provide accessors if needed.(“·øJ8²Ù¹¨Ê.
+h
+java:S1128"KRemove this unused import 'com.rbigsoft.unrar.utilitaire.NotificationUtil'.(ß‰êí8²‡ ©Ê.
+F
+java:S2446}"0"notify" may not wake up the appropriate thread.(­ÀôÉ
+~
+java:S1450"cRemove the "multipartDialogShown" field and declare it as a local variable in the relevant methods.(Ï¼èŸùÿÿÿÿ
+H
+java:S1481V"+Remove this unused "unused" local variable.(•¨•Ï8³æ”àÉ.
+>
+java:S1604E"(Make this anonymous inner class a lambda(É”Ìç
+I
+java:S1481x",Remove this unused "unused2" local variable.(í‰8³æ”àÉ.
+H
+java:S1444"-Make this "public static browser" field final(õˆ¬äÿÿÿÿÿ
+>
+java:S1604P"(Make this anonymous inner class a lambda(É”Ìç
+>
+java:S1604p"(Make this anonymous inner class a lambda(É”Ìç
+M
+java:S1481v"+Remove this unused "unused" local variable.(°Ş„Éúÿÿÿÿ8³æ”àÉ.
+X
+java:S1161’":Add the "@Override" annotation above this method signature(©¦±‡8³æ”àÉ.
+F
+java:S2446W"0"notify" may not wake up the appropriate thread.(­ÀôÉ
+q
+java:S1104 "[Make resultFileExist a static final constant or non-public and provide accessors if needed.(Úà¢Ğ
+n
+java:S1104"SMake browser a static final constant or non-public and provide accessors if needed.(õˆ¬äÿÿÿÿÿ
+q
+java:S1104#"TMake filePath a static final constant or non-public and provide accessors if needed.(•ê£’8—×İúÉ.
+o
+java:S1104"TMake password a static final constant or non-public and provide accessors if needed.(¼şòüÿÿÿÿ
+p
+java:S1104$"SMake fileGet a static final constant or non-public and provide accessors if needed.(¶›”ı8Çˆ“Ê.
+P
+java:S1161":Add the "@Override" annotation above this method signature(Á…‘
+\
+java:S2142`"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+O
+java:S2274_":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <ImageView
+                android:id="@+id/butArchiveRetour"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="17dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:id="@+id/tv_file_names"
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="sadfadfefe"
+                android:textColor="@color/colorText"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textViewArchivePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="Text spam"
+        android:textColor="@color/colorText"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/butCheckAll"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+
+            android:text="@string/check_all" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/butCheckAll"
+            android:background="@color/colorLine">
+
+        </TextView>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/butUnckeckAll"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/butCheckAll"
+        android:layout_toRightOf="@+id/butCheckAll"
+        android:text="@string/uncheck_all"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listViewArchive"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.76" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/butAnnuleExtractFile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/colorButton"
+            android:text="@string/annuler"
+            android:textColor="@color/colorTextCancel" />
+
+        <Button
+            android:id="@+id/butExtractSelectFile"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorButton"
+            android:text="@string/ok"
+            android:textColor="@color/colorTextOk" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/maincmd_add"
+        android:icon="@drawable/ic_cmdadd"
+        android:showAsAction="always"
+        android:title="@string/maincmd_add" />
+    <item
+        android:id="@+id/maincmd_extract"
+        android:icon="@drawable/ic_cmdextr"
+        android:showAsAction="always"
+        android:title="@string/maincmd_extr" />
+    <item
+        android:id="@+id/maincmd_delete"
+        android:icon="@drawable/ic_cmddel"
+        android:showAsAction="always"
+        android:title="@string/maincmd_delete" />
+    <item
+        android:id="@+id/maincmd_test"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/maincmd_test" />
+    <item
+        android:id="@+id/maincmd_repair"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/maincmd_repair" />
+    <item
+        android:id="@+id/maincmd_benchmark"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/maincmd_benchmark" />
+    <item
+        android:id="@+id/maincmd_send"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/maincmd_send" />
+    <item
+        android:id="@+id/maincmd_info"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/maincmd_information" />
+    <item
+        android:id="@+id/maincmd_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/maincmd_settings" />
+    <item
+        android:id="@+id/maincmd_help"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/maincmd_help" />
+    <item
+        android:id="@+id/maincmd_refresh"
+        android:icon="@drawable/ic_cmd_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/navmenu_refresh" />
+    <item
+        android:id="@+id/maincmd_updir"
+        android:icon="@drawable/ic_cmd_updir"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/up_one_level" />
+    <item
+        android:id="@+id/maincmd_up_multiple"
+        android:icon="@drawable/ic_cmd_up_multiple"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/up_multiple_levels" />
+</menu>

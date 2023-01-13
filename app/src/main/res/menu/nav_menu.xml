@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navExtractFiles"
+        android:icon="@drawable/ic_package_up_white_48dp"
+        android:title="Extract" />
+    <item
+        android:id="@+id/navtNewArchive"
+        android:icon="@drawable/ic_zip_box_white_48dp"
+        android:title="Create Zip file" />
+</menu>

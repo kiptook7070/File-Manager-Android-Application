@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/onetimenotify_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <CheckBox android:id="@+id/onetimenotify_notshowagain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/not_show_again" android:layout_below="@+id/onetimenotify_info" android:layout_alignLeft="@+id/onetimenotify_info" android:onClick="btnnotshowgain_clicked"/>
+    <LinearLayout android:layout_below="@+id/onetimenotify_notshowagain" style="@style/ButtonPanelOuterLayoutDialog">
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/btnhelp" android:text="@string/btn_help" android:onClick="btnhelp_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/btnok" android:text="@string/btn_ok" android:onClick="btnok_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

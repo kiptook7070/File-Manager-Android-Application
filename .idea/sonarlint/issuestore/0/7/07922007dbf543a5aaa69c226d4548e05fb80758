@@ -1,0 +1,22 @@
+
+E
+java:S3740ˆ"/Provide the parametrized type for this generic.(¨»Èa
+\
+java:S2142T"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+>
+java:S1172c"(Remove this unused method parameter "i".(³“×â
+t	java:S135Œ"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆžÿÿÿÿÿ
+P
+java:S1141R"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+E
+java:S3740ˆ"/Provide the parametrized type for this generic.(¨»Èa
+W
+java:S1161":Add the "@Override" annotation above this method signature(¨˜©Ä8¦×ÝúÉ.
+m
+java:S37768"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(÷ÌÔäúÿÿÿÿ
+\
+java:S1161":Add the "@Override" annotation above this method signature(†Î¯ýûÿÿÿÿ8¦×ÝúÉ.
+h
+java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(³“×â
+F
+java:S3740‡"/Provide the parametrized type for this generic.(”ùÝ 

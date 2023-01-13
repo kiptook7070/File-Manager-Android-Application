@@ -1,0 +1,22 @@
+
+E
+java:S1125F"(Remove the literal "true" boolean value.(àÍ¯ª8‘Ãæ’Ê.
+€
+java:S1450"^Remove the "checkBoxExtract" field and declare it as a local variable in the relevant methods.(çıÎİşÿÿÿÿ8‚¶òçÇ.
+m
+java:S1192?"KDefine a constant instead of duplicating this literal "deletefile" 4 times.(œÚ×ûÿÿÿÿ8ÀÇé’Ê.
+œ
+java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+h
+java:S1128"FRemove this unused import 'com.rbigsoft.unrar.model.document.Dossier'.(ºšûùÿÿÿÿ8éõ‡İÉ.
+J
+java:S1604C"(Make this anonymous inner class a lambda( Øë£ûÿÿÿÿ8‘Ãæ’Ê.
+v
+java:S1450"[Remove the "cancelButton" field and declare it as a local variable in the relevant methods.(¨çÎüÿÿÿÿ
+—
+java:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±îÀí
+y
+java:S1450("WRemove the "cbDelete" field and declare it as a local variable in the relevant methods.(¢Ë•Öıÿÿÿÿ8½ä’Ê.
+t	java:S135’"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+u
+java:S3776‹"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(‘å“ˆúÿÿÿÿ8“¾Î’Ê.

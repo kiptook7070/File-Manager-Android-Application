@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_id" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/btnpanel" android:layout_alignParentTop="true">
+        <EditText android:textSize="14sp" android:id="@+id/info_comment_text" android:background="#00000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:inputType="none" android:textIsSelectable="true"/>
+    </ScrollView>
+    <LinearLayout android:id="@+id/btnpanel" style="@style/ButtonPanelOuterLayout">
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/btnok" android:text="@string/btn_ok" android:onClick="btnok_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

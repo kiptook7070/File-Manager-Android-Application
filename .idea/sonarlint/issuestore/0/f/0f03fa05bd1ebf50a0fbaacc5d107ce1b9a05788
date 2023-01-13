@@ -1,0 +1,7 @@
+
+t	java:S115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¡ˆ¬¥ýÿÿÿÿ
+o	java:S115&"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ŠÄð
+†
+java:S13198"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(€­“¯
+x
+java:S14883"]Immediately return this expression instead of assigning it to the temporary variable "newId".(šÀúÅþÿÿÿÿ

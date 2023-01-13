@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_id" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/btnpanel" android:layout_alignParentTop="true">
+        <RelativeLayout android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/askreplace_fileexist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ask_replace_file_exists" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/askreplace_filename1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_below="@+id/askreplace_fileexist" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+            <TextView android:id="@+id/askreplace_info1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_below="@+id/askreplace_filename1" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+            <TextView android:id="@+id/askreplace_withthis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/ask_replace_with_this" android:layout_below="@+id/askreplace_info1" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+            <EditText android:id="@+id/askreplace_filename2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:ems="10" android:layout_below="@+id/askreplace_withthis" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:inputType="textUri" android:imeOptions="actionDone"/>
+            <TextView android:id="@+id/askreplace_info2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_below="@+id/askreplace_filename2" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:id="@+id/btnpanel" style="@style/ButtonPanelOuterLayout">
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/askreplace_skip" android:text="@string/btn_skip" android:onClick="btnskip_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/askreplace_replace" android:text="@string/btn_replace" android:onClick="btnreplace_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/askreplace_skipall" android:text="@string/btn_skip_all" android:onClick="btnskipall_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/askreplace_replaceall" android:text="@string/btn_replace_all" android:onClick="btnreplaceall_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/askreplace_rename" android:text="@string/btn_rename" android:onClick="btnrename_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/askreplace_renameauto" android:text="@string/btn_rename_auto" android:onClick="btnrenameauto_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/askreplace_cancel" android:text="@string/btn_cancel" android:onClick="btncancel_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/askreplace_help" android:text="@string/btn_help" android:onClick="btnhelp_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

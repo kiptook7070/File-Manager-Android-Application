@@ -1,0 +1,34 @@
+
+W
+java:S1161+":Add the "@Override" annotation above this method signature(©¦±‡8ŸÓ½ðÇ.
+W
+java:S11615":Add the "@Override" annotation above this method signature( —³È8ŸÓ½ðÇ.
+=
+java:S1185I"(Remove this method to simply inherit it.(–ýðn
+E
+java:S1481 ")Remove this unused "name" local variable.(å”t8è½ØÇ.
+\
+java:S11610":Add the "@Override" annotation above this method signature(À†ú°ûÿÿÿÿ8ŸÓ½ðÇ.
+>
+java:S11855"(Remove this method to simply inherit it.( —³È
+W
+java:S1161":Add the "@Override" annotation above this method signature(¨˜©Ä8ŸÓ½ðÇ.
+C
+java:S11850"(Remove this method to simply inherit it.(À†ú°ûÿÿÿÿ
+C
+java:S1185D"(Remove this method to simply inherit it.(ŸÎ«àýÿÿÿÿ
+V
+java:S1161I":Add the "@Override" annotation above this method signature(–ýðn8ŸÓ½ðÇ.
+X	java:S125$"<This block of commented-out lines of code should be removed.(ÛÛØ³8¡³µÙÇ.
+>
+java:S1185+"(Remove this method to simply inherit it.(©¦±‡
+W
+java:S1161?":Add the "@Override" annotation above this method signature(ïÐÔ‰8ŸÓ½ðÇ.
+>
+java:S1185?"(Remove this method to simply inherit it.(ïÐÔ‰
+>
+java:S1185:"(Remove this method to simply inherit it.(‘æ‚í
+\
+java:S1161D":Add the "@Override" annotation above this method signature(ŸÎ«àýÿÿÿÿ8ŸÓ½ðÇ.
+W
+java:S1161:":Add the "@Override" annotation above this method signature(‘æ‚í8ŸÓ½ðÇ.

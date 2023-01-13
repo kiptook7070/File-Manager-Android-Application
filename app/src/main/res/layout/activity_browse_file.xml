@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/browse_justforpadding" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/btnpanel" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:id="@+id/browse_selectedname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <ListView android:id="@+id/browse_list" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/browse_selectedname" android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/btnpanel" style="@style/ButtonPanelOuterLayout">
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/btncancel" android:text="@string/btn_cancel" android:onClick="btncancel_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/btnhelp" android:text="@string/btn_help" android:onClick="btnhelp_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/browse_folderonly" android:text="@string/btn_folder_only" android:onClick="btnfolderonly_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewMime"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_file_default" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_name_file_avatar"
+            android:layout_width="35dp"
+            android:textSize="13dp"
+            android:layout_height="35dp"
+            android:background="@drawable/custom_ll_avatar_file"
+            android:gravity="center"
+            android:text="PDF"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewNomFichierImportMime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text=" Textsdqdqdsqdqsdqsdqsdqsdqsdqsdqsd"
+            android:textColor="@color/colorText"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewFileSizeMime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="TextView"
+
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxMimeItem"
+        android:background="@drawable/ic_check_box"
+        android:button="@drawable/checkbox_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:focusable="false"
+        android:onClick="onCheckedChanged" />
+</LinearLayout>

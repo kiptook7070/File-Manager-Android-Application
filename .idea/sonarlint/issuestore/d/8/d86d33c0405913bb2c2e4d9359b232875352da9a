@@ -1,0 +1,30 @@
+
+^	java:S125æ"<This block of commented-out lines of code should be removed.(í“éıÿÿÿÿ8ÃİÚÉ.
+p
+java:S1871"MThis branch's code block is the same as the block for the branch on line 138.(Ì¦È¿ùÿÿÿÿ8ÃİÚÉ.
+T
+java:S1155h">Use isEmpty() to check whether the collection is empty or not.(ŠÀÄû
+U
+java:S1155î">Use isEmpty() to check whether the collection is empty or not.(£´÷Û
+J
+java:S3740."/Provide the parametrized type for this generic.(Æ±ºšüÿÿÿÿ
+>
+java:S10681"(Remove this unused "root" private field.(¸Œ÷ë
+K
+java:S1604›"(Make this anonymous inner class a lambda(İï­¶úÿÿÿÿ8ñÏğÜÉ.
+p
+java:S1871š"MThis branch's code block is the same as the block for the branch on line 151.(òÉ§ùÿÿÿÿ8ÃİÚÉ.
+T
+java:S1155z">Use isEmpty() to check whether the collection is empty or not.(ß‡Ø¬
+K
+java:S1604‚"(Make this anonymous inner class a lambda(İï­¶úÿÿÿÿ8±ï¢İÉ.
+K
+java:S1604"(Make this anonymous inner class a lambda(İï­¶úÿÿÿÿ8ñÏğÜÉ.
+h
+java:S1128"FRemove this unused import 'com.rbigsoft.unrar.model.document.Dossier'.(ºšûùÿÿÿÿ8÷Ÿ İÉ.
+m
+java:S1192‘"WDefine a constant instead of duplicating this literal "THREAD EXTRACT RUNNING" 3 times.(İòÜ
+Y
+java:S1128"7Remove this unused import 'android.widget.ImageButton'.(‚ÏÉõÿÿÿÿÿ8©ÔÒàÇ.
+k
+java:S1871§"MThis branch's code block is the same as the block for the branch on line 164.(ÁËŞ×8ÃİÚÉ.

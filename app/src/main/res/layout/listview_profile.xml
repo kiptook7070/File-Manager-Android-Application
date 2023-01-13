@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="16sp" android:textStyle="bold" android:id="@+id/proflist_name" android:paddingTop="4sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/proflist_checkbox" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:textIsSelectable="false"/>
+    <TextView android:textSize="12sp" android:id="@+id/proflist_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/proflist_checkbox" android:layout_below="@+id/proflist_name" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:textIsSelectable="false"/>
+    <CheckBox android:id="@+id/proflist_checkbox" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/list_checkbox" android:layout_alignParentRight="true"/>
+</RelativeLayout>

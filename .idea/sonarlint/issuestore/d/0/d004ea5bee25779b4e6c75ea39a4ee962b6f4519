@@ -1,0 +1,30 @@
+
+W
+java:S1161!":Add the "@Override" annotation above this method signature(¨˜©Ä8ÌúğÇ.
+>
+java:S1185R"(Remove this method to simply inherit it.(³ì·Å
+W
+java:S1161W":Add the "@Override" annotation above this method signature(ö„¼ç8ÌúğÇ.
+P	java:S8996";Do something with the "boolean" value returned by "delete".(ÑÀ´
+c
+java:S2095@"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(£õÌÚúÿÿÿÿ
+d
+java:S40426"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ÑÀ´
+G
+java:S14810",Remove this unused "strArr2" local variable.(¨ªìšûÿÿÿÿ
+V
+java:S1161M":Add the "@Override" annotation above this method signature(«İ‰8ÌúğÇ.
+>
+java:S1185W"(Remove this method to simply inherit it.(ö„¼ç
+W
+java:S1161R":Add the "@Override" annotation above this method signature(³ì·Å8ÌúğÇ.
+p
+java:S11921"NDefine a constant instead of duplicating this literal "7zip extracts" 3 times.(½± üÿÿÿÿ8—×İúÉ.
+t
+java:S1450"WRemove the "filePath" field and declare it as a local variable in the relevant methods.(•¶Ì±8—×İúÉ.
+T
+java:S2387"7"filePath" is the name of a field in "ExtractRarAsync".(•¶Ì±8—×İúÉ.
+D
+java:S1185"(Remove this method to simply inherit it.(Á…‘8—×İúÉ.
+\
+java:S1161I":Add the "@Override" annotation above this method signature(†Î¯ıûÿÿÿÿ8—×İúÉ.

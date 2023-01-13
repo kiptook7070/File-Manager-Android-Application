@@ -1,0 +1,83 @@
+
+\
+java:S2130€"9Use "Integer.parseInt" for this string-to-int conversion.(Ü÷Ü¤ÿÿÿÿÿ8Îãº¬É.
+L
+java:S2201…")The return value of "isNaN" must be used.(ˆøúýÿÿÿÿ8Îãº¬É.
+V
+java:S2589û"8Remove this expression which always evaluates to "false"(ß„è–8Îãº¬É.
+—
+java:S1186i"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±îÀí
+M
+java:S3740§"/Provide the parametrized type for this generic.(Þç½Å8¯•ô¬É.
+F	java:S108ß")Either remove or fill this block of code.(¢ì¬ë8¯•ô¬É.
+n
+java:S1192"KDefine a constant instead of duplicating this literal "deletefile" 4 times.(œÚ×ûÿÿÿÿ8Õ›“Ê.
+M
+java:S1068M"+Remove this unused "rbtnTar" private field.(ãÌÁÅÿÿÿÿÿ8ºÛ«¬É.
+
+java:S1450L"]Remove the "rgTypeCompress" field and declare it as a local variable in the relevant methods.(ä®çíúÿÿÿÿ8Ï¥µ¬É.
+F	java:S108ˆ")Either remove or fill this block of code.(ãµ¡³8Îãº¬É.
+O
+java:S1068K"-Remove this unused "typButton" private field.(¡äþþÿÿÿÿ8ù§¬É.
+V
+java:S2130Ò"8Use "Long.parseLong" for this string-to-long conversion.(¸Á¢ø8Îãº¬É.
+G
+java:S1659M"%Declare "rbtnTar" on a separate line.(ãÌÁÅÿÿÿÿÿ8¤ô©¬É.
+œ
+java:S1186R"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+F
+java:S1659M"$Declare "rbtn7z" on a separate line.(ãÌÁÅÿÿÿÿÿ8à¸ª¬É.
+M
+java:S3740Í"/Provide the parametrized type for this generic.(ã¦Ý°8¯•ô¬É.
+\
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(¯ú°…üÿÿÿÿ8Îãº¬É.
+—
+java:S1186U"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±îÀí
+L
+java:S1068M"*Remove this unused "rbtn7z" private field.(ãÌÁÅÿÿÿÿÿ8ºÛ«¬É.
+y
+java:S1450H"^Remove the "toggleMultipart" field and declare it as a local variable in the relevant methods.(ƒÁÆ¶øÿÿÿÿ
+x
+java:S1450M"VRemove the "rbtnTar" field and declare it as a local variable in the relevant methods.(ãÌÁÅÿÿÿÿÿ8Ï¥µ¬É.
+L
+java:S1481°".Remove this unused "listFiles" local variable.(Ë¸Ô8¯•ô¬É.
+}
+java:S1450N"[Remove the "cbDeleteFile" field and declare it as a local variable in the relevant methods.(–¦Ý±ýÿÿÿÿ8¾°¹­É.
+V
+java:S3878”"8Remove this array creation and simply pass the elements.(—ÕœË8¯•ô¬É.
+F
+java:S1125½"(Remove the literal "true" boolean value.(àÍ¯ª8Õ›“Ê.
+M
+java:S3740à"/Provide the parametrized type for this generic.(¹Ú£’8Îãº¬É.
+K	java:S108Ý")Either remove or fill this block of code.(ÄîÏéüÿÿÿÿ8¯•ô¬É.
+J
+java:S1905Ë"'Remove this unnecessary cast to "File".(ôý¾Áøÿÿÿÿ8¯•ô¬É.
+V
+java:S1161‰":Add the "@Override" annotation above this method signature(úùóüÿÿÿÿ
+w
+java:S1450M"URemove the "rbtn7z" field and declare it as a local variable in the relevant methods.(ãÌÁÅÿÿÿÿÿ8Ï¥µ¬É.
+M
+java:S3740§"/Provide the parametrized type for this generic.(Þç½Å8¯•ô¬É.
+\
+java:S2130Ä"9Use "Integer.parseInt" for this string-to-int conversion.(¯­ ±úÿÿÿÿ8Îãº¬É.
+x
+java:S1450M"VRemove the "rbtnZip" field and declare it as a local variable in the relevant methods.(ãÌÁÅÿÿÿÿÿ8Ï¥µ¬É.
+V
+java:S2130Œ"8Use "Long.parseLong" for this string-to-long conversion.(ðµüÎ8¯•ô¬É.
+K
+java:S1604º"(Make this anonymous inner class a lambda(Ü¡¬öüÿÿÿÿ8¾°¹­É.
+\
+java:S1155û">Use isEmpty() to check whether the collection is empty or not.(ß„è–8Îãº¬É.
+œ
+java:S1186f"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ
+u
+java:S1450G"ZRemove the "toggleCrypt" field and declare it as a local variable in the relevant methods.(íØÑ»øÿÿÿÿ
+F	java:S108”")Either remove or fill this block of code.(ãµ¡³8Îãº¬É.
+R
+java:S3740ç"/Provide the parametrized type for this generic.(Ì®Üªûÿÿÿÿ8Îãº¬É.
+K
+java:S1604¡"(Make this anonymous inner class a lambda(½µ¡Ðûÿÿÿÿ8¿Å¶¬É.
+D	java:S131¤""Add a default case to this switch.(ÿ«¬‹üÿÿÿÿ8½Ò·¬É.
+E
+java:S2201„")The return value of "isNaN" must be used.(äÙ÷åûÿÿÿÿ
+Y	java:S125ñ"<This block of commented-out lines of code should be removed.(Öû—É8‡¤æ«Ê.

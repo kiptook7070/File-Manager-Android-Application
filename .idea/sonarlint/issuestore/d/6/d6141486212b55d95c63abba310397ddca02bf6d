@@ -1,0 +1,144 @@
+
+W
+java:S1161á":Add the "@Override" annotation above this method signature(“µ{8ŒæìëÇ.
+]
+java:S1161–":Add the "@Override" annotation above this method signature(œƒƒ©ùÿÿÿÿ8ŒæìëÇ.
+D
+java:S1481ö"&Remove this unused "z" local variable.(âü¢Õ8•´ì©Ê.
+F
+java:S1604Í"(Make this anonymous inner class a lambda(ëœùˆ8ŒæìëÇ.
+E
+java:S1659a"(Declare "llCompress" on a separate line.(ƒİŠÎ8æÔËêÇ.
+W
+java:S1161š":Add the "@Override" annotation above this method signature(Á…‘8ŒæìëÇ.
+`
+java:S1128&">Remove this unused import 'androidx.appcompat.widget.Toolbar'.(ÔËûİùÿÿÿÿ8Ò°€ªÊ.
+u
+java:S1450a"XRemove the "llExtract" field and declare it as a local variable in the relevant methods.(ƒİŠÎ8åïÔêÇ.
+f
+java:S1068P"DRemove this unused "PERMISSIONS_REQUEST_READ_STORAGE" private field.(ïáÇúÿÿÿÿ8Á––ŒÆ.
+[
+java:S3878€"8Remove this array creation and simply pass the elements.(¸› ùÿÿÿÿ8ŒæìëÇ.
+h
+java:S3878"EDisambiguate this call by either casting as "Dossier" or "Dossier[]".(¾Ñÿ£üÿÿÿÿ8ŒæìëÇ.
+X
+java:S1161":Add the "@Override" annotation above this method signature(¯öúÈ8ŒæìëÇ.
+
+java:S1104g"]Make threadStartFinish a static final constant or non-public and provide accessors if needed.(ğ³ôÇûÿÿÿÿ8Á––ŒÆ.
+t
+java:S1192„"WDefine a constant instead of duplicating this literal "THREAD EXTRACT RUNNING" 3 times.(İòÜ8ŒæìëÇ.
+X	java:S110O"<This class has 9 parents which is greater than 5 authorized.(ùì†Œ8Á––ŒÆ.
+]	java:S899É";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8ŒæìëÇ.
+|
+java:S1104_"`Make elementsSelectionnes a static final constant or non-public and provide accessors if needed.( ¡°\8Á––ŒÆ.
+q
+java:S4042É"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8ŒæìëÇ.
+W
+java:S1161†":Add the "@Override" annotation above this method signature(“µ{8éÕïŒÉ.
+F	java:S108Š")Either remove or fill this block of code.(¼äŠˆ8ŒæìëÇ.
+n
+java:S1301„"KReplace this "switch" statement by "if" statements to increase readability.(×“¾ñùÿÿÿÿ8ıºÖêÇ.
+Y	java:S125ş"<This block of commented-out lines of code should be removed.(ÆäÓ8¨›ªÊ.
+9
+java:S3878™"Remove this array creation.(‘Ö‹†8îÂ„®É.
+g
+java:S3878v"EDisambiguate this call by either casting as "Dossier" or "Dossier[]".(â±óƒÿÿÿÿÿ8´®çÀÇ.
+m
+java:S1192"ODefine a constant instead of duplicating this literal "Please wait..." 4 times.(¡ÖÌ8ŒæìëÇ.
+W
+java:S1161·":Add the "@Override" annotation above this method signature(Á…‘8ŒæìëÇ.
+F
+java:S1604’"(Make this anonymous inner class a lambda(Ô£ÿÉ8îÂ„®É.
+|
+java:S1104^"ZMake dossierCourant a static final constant or non-public and provide accessors if needed.(Õ’¬£ùÿÿÿÿ8ìÁÚÉ.
+K
+java:S3740_"/Provide the parametrized type for this generic.( ¡°\8´®çÀÇ.
+W
+java:S1161Ø":Add the "@Override" annotation above this method signature(Á…‘8ŒæìëÇ.
+\
+java:S1155ì">Use isEmpty() to check whether the collection is empty or not.(¦†ñ8ŒæìëÇ.
+w
+java:S1192Å"TDefine a constant instead of duplicating this literal "THREAD LIST RUNNING" 3 times.(ğ¸¿œûÿÿÿÿ8ŒæìëÇ.
+W
+java:S1161¾":Add the "@Override" annotation above this method signature(“µ{8ŒæìëÇ.
+q
+java:S1104\"TMake dataPath a static final constant or non-public and provide accessors if needed.(Ã¾õ´8Á––ŒÆ.
+X
+java:S1161õ":Add the "@Override" annotation above this method signature(ŠËñ†8ŒæìëÇ.
+X
+java:S1161ì":Add the "@Override" annotation above this method signature(öÿÕÅ8ŒæìëÇ.
+k
+java:S1871š"MThis branch's code block is the same as the block for the branch on line 663.(¶’÷ê8ŒæìëÇ.
+k
+java:S1871Û"MThis branch's code block is the same as the block for the branch on line 728.(âû¦Á8ŒæìëÇ.
+x
+java:S1104]"VMake docAdapter a static final constant or non-public and provide accessors if needed.(ıéæµûÿÿÿÿ8µÙæÀÇ.
+K
+java:S1185š"(Remove this method to simply inherit it.(×–¾ßÿÿÿÿÿ8ŒæìëÇ.
+F	java:S108Ï")Either remove or fill this block of code.(¡€¾õ8ŒæìëÇ.
+F	java:S108å")Either remove or fill this block of code.(¼äŠˆ8ŒæìëÇ.
+X
+java:S1161°":Add the "@Override" annotation above this method signature(Ôö§ó8ŒæìëÇ.
+E
+java:S1481„"'Remove this unused "i2" local variable.(¢õ’ˆ8ŒæìëÇ.
+^	java:S125€"<This block of commented-out lines of code should be removed.(¡¹’ëúÿÿÿÿ8¨›ªÊ.
+y
+java:S1450j"\Remove the "imgBackFolder" field and declare it as a local variable in the relevant methods.(ûÙ«ï8Ğß™„Ê.
+V
+java:S3878â"8Remove this array creation and simply pass the elements.(Û³ëó8ŒæìëÇ.
+y
+java:S1104`"WMake fabExpanded a static final constant or non-public and provide accessors if needed.(ØÕªïùÿÿÿÿ8Á––ŒÆ.
+R
+java:S1144¾"4Remove this unused private "showExitMessage" method.(Ùğ‚ò8–ıÂƒÊ.
+o
+java:S1192“"QDefine a constant instead of duplicating this literal "DetailArrGetFile" 3 times.(Ğô²Ş8ŒæìëÇ.
+u
+java:S3776§"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ê½›˜ıÿÿÿÿ8ŒæìëÇ.
+Y	java:S125à"<This block of commented-out lines of code should be removed.(“øê8³÷¾ÏÉ.
+v
+java:S1450a"YRemove the "llCompress" field and declare it as a local variable in the relevant methods.(ƒİŠÎ8åïÔêÇ.
+¤
+java:S1186¤"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(º‰€Şûÿÿÿÿ8ŒæìëÇ.
+W
+java:S3516°"9Refactor this method to not always return the same value.(Ôö§ó8ŒæìëÇ.
+p
+java:S1871"MThis branch's code block is the same as the block for the branch on line 650.(íÓÒÔøÿÿÿÿ8ŒæìëÇ.
+I
+java:S1481ù"+Remove this unused "chemin" local variable.(ÔŸÎ´8•´ì©Ê.
+k
+java:S1871Î"MThis branch's code block is the same as the block for the branch on line 715.(û‰ôœ8ŒæìëÇ.
+N
+java:S1172°"+Remove this unused method parameter "view".(Öã…²üÿÿÿÿ8ŒæìëÇ.
+W
+java:S1161ı":Add the "@Override" annotation above this method signature(Á…‘8ŒæìëÇ.
+N
+java:S1172¢"+Remove this unused method parameter "view".(ı®™îúÿÿÿÿ8ŒæìëÇ.
+m
+java:S1104["PMake data a static final constant or non-public and provide accessors if needed.(¾ÇÌ²8Á––ŒÆ.
+W
+java:S1161¢":Add the "@Override" annotation above this method signature(“µ{8éÕïŒÉ.
+j
+java:S1128."HRemove this unused import 'com.rbigsoft.sn.unzip.activity.FileActivity'.(ÈÒŞŒşÿÿÿÿ8—×İúÉ.
+E
+java:S1604±"(Make this anonymous inner class a lambda(İãûp8Ğß™„Ê.
+D	java:S131„""Add a default case to this switch.(×“¾ñùÿÿÿÿ8ıºÖêÇ.
+I
+java:S1172Â"+Remove this unused method parameter "view".(‰‚¾ö8ŒæìëÇ.
+p
+java:S1871€"MThis branch's code block is the same as the block for the branch on line 637.(‚¸•Ÿşÿÿÿÿ8ŒæìëÇ.
+X
+java:S1161º":Add the "@Override" annotation above this method signature(÷»º”8ŒæìëÇ.
+]
+java:S1161Ú":Add the "@Override" annotation above this method signature(ß—ãÿÿÿÿÿ8ŒæìëÇ.
+‚
+java:S1104e"`Make selectFileToZipState a static final constant or non-public and provide accessors if needed.(äùÆƒøÿÿÿÿ8´®çÀÇ.
+k
+java:S1871Á"MThis branch's code block is the same as the block for the branch on line 702.(ó»‘û8ŒæìëÇ.
+]
+java:S1161š":Add the "@Override" annotation above this method signature(×–¾ßÿÿÿÿÿ8ŒæìëÇ.
+h
+java:S3878·"EDisambiguate this call by either casting as "Dossier" or "Dossier[]".(¾Ñÿ£üÿÿÿÿ8ŒæìëÇ.
+F
+java:S1604ı"(Make this anonymous inner class a lambda(¦©Ö8ŒæìëÇ.
+]
+java:S1161§":Add the "@Override" annotation above this method signature(ê½›˜ıÿÿÿÿ8ŒæìëÇ.

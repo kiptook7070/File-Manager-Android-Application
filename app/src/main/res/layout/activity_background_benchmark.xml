@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:id="@+id/bckcmd_justforpadding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnpanel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/bckcmd_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:freezesText="true" />
+
+        <TextView
+            android:id="@+id/bckcmd_resspeed_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bckcmd_subtitle"
+            android:layout_alignParentLeft="true"
+            android:text="@string/benchmark_resspeed" />
+
+        <TextView
+            android:id="@+id/bckcmd_resspeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/bckcmd_resspeed_title"
+            android:layout_alignParentRight="true"
+            android:freezesText="true"
+            android:text="@string/please_wait" />
+
+        <TextView
+            android:id="@+id/bckcmd_curspeed_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bckcmd_resspeed_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/benchmark_curspeed" />
+
+        <TextView
+            android:id="@+id/bckcmd_curspeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/bckcmd_curspeed_title"
+            android:layout_alignParentRight="true"
+            android:freezesText="true"
+            android:text="@string/please_wait" />
+
+        <TextView
+            android:id="@+id/bckcmd_elapsedtime_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bckcmd_curspeed_title"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/elapsed_title" />
+
+        <TextView
+            android:id="@+id/bckcmd_elapsedtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/bckcmd_elapsedtime_title"
+            android:layout_alignParentRight="true"
+            android:freezesText="true" />
+
+        <TextView
+            android:id="@+id/bckcmd_processed_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bckcmd_elapsedtime_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/benchmark_processed" />
+
+        <TextView
+            android:id="@+id/bckcmd_processed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/bckcmd_processed_title"
+            android:layout_alignParentRight="true"
+            android:freezesText="true" />
+
+        <TextView
+            android:id="@+id/bckcmd_errors_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bckcmd_processed_title"
+            android:layout_alignParentLeft="true"
+            android:text="@string/benchmark_errors" />
+
+        <TextView
+            android:id="@+id/bckcmd_errors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/bckcmd_errors_title"
+            android:layout_alignParentRight="true"
+            android:freezesText="true"
+            android:text="@string/no" />
+
+        <TextView
+            android:id="@+id/bckcmd_threads_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bckcmd_errors_title"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/benchmark_threads" />
+
+        <Spinner
+            android:id="@+id/bckcmd_threads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bckcmd_threads_title"
+            android:layout_alignParentRight="true" />
+
+        <ListView
+            android:id="@+id/bckcmd_msglist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bckcmd_errcount"
+            android:layout_below="@+id/bckcmd_threads_title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/bckcmd_errcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="10dp"
+            android:freezesText="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btnpanel"
+        style="@style/ButtonPanelOuterLayout">
+
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+
+            <Button
+                android:id="@+id/btncancel"
+                style="@style/ButtonPanelButton"
+                android:onClick="btncancel_clicked"
+                android:text="@string/btn_close" />
+
+            <Button
+                android:id="@+id/btnhelp"
+                style="@style/ButtonPanelButton"
+                android:onClick="btnhelp_clicked"
+                android:text="@string/btn_help" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

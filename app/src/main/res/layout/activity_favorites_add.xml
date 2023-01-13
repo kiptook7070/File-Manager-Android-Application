@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnpanel"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/favadd_nametitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/favorites_add_name" />
+
+        <EditText
+            android:id="@+id/favadd_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favadd_nametitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:imeOptions="actionDone"
+            android:inputType="textUri" />
+
+        <TextView
+            android:id="@+id/favadd_loctitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favadd_name"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/favorites_add_location" />
+
+        <EditText
+            android:id="@+id/favadd_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favadd_loctitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:imeOptions="actionDone"
+            android:inputType="textUri" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btnpanel"
+        style="@style/ButtonPanelOuterLayout">
+
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+
+            <Button
+                android:id="@+id/btncancel"
+                style="@style/ButtonPanelButton"
+                android:onClick="btncancel_clicked"
+                android:text="@string/btn_cancel" />
+
+            <Button
+                android:id="@+id/btnhelp"
+                style="@style/ButtonPanelButton"
+                android:onClick="btnhelp_clicked"
+                android:text="@string/btn_help" />
+
+            <Button
+                android:id="@+id/btnok"
+                style="@style/ButtonPanelButton"
+                android:onClick="btnok_clicked"
+                android:text="@string/btn_ok" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

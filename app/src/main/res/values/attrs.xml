@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="status_text_color" format="reference|color">
+    </attr>
+    <attr name="status_background_color" format="reference|color">
+    </attr>
+</resources>

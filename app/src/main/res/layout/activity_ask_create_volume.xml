@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:id="@+id/scroll_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnpanel"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/askcreatevol_nametitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/ask_create_vol_name" />
+
+            <Button
+                android:id="@+id/btnbrowse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:onClick="btnbrowse_clicked"
+                android:text="@string/btn_browse" />
+
+            <EditText
+                android:id="@+id/askcreatevol_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnbrowse"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="textUri">
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/askcreatevol_volsizetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/askcreatevol_name"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="8dp"
+                android:text="@string/ask_create_vol_size_title" />
+
+            <AutoCompleteTextView
+                android:id="@+id/askcreatevol_volsize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/askcreatevol_volsizetitle"
+                android:layout_alignParentLeft="true"
+                android:completionThreshold="1"
+                android:ems="4"
+                android:imeOptions="actionDone"
+                android:inputType="textUri" />
+
+            <Spinner
+                android:id="@+id/askcreatevol_volsizeitem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/askcreatevol_volsize"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/askcreatevol_volsize" />
+
+            <TextView
+                android:id="@+id/askcreatevol_actioninfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/askcreatevol_volsize"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="20dp"
+                android:text="@string/ask_create_vol_action_info" />
+
+            <TextView
+                android:id="@+id/askcreatevol_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/askcreatevol_actioninfo"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="20dp"
+                android:text="@string/ask_create_vol_question" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/btnpanel"
+        style="@style/ButtonPanelOuterLayout">
+
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+
+            <Button
+                android:id="@+id/btncancel"
+                style="@style/ButtonPanelButton"
+                android:onClick="btncancel_clicked"
+                android:text="@string/btn_cancel" />
+
+            <Button
+                android:id="@+id/btncreate"
+                style="@style/ButtonPanelButton"
+                android:onClick="btncreate_clicked"
+                android:text="@string/btn_create" />
+
+            <Button
+                android:id="@+id/btncreateall"
+                style="@style/ButtonPanelButton"
+                android:onClick="btncreateall_clicked"
+                android:text="@string/btn_create_all" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

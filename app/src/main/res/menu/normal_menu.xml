@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_sort_white_24dp" android:id="@+id/butSortFile" android:orderInCategory="100" android:title="Sort by ..." app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_sd_card_white_24dp" android:id="@+id/itemChangeSdcard" android:orderInCategory="110" android:title="@string/changeSdcard" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_star_white_24dp" android:id="@+id/itemMenuPremium" android:orderInCategory="120" android:title="@string/noter" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_info_outline_white_24dp" android:id="@+id/aboutApp" android:orderInCategory="130" android:title="About" app:showAsAction="ifRoom"/>
+</menu>

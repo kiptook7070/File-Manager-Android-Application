@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/getarc_arcnamebtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/getarc_name"
+            android:layout_alignParentLeft="true"
+            android:text="@string/arcopt_name" />
+
+        <Button
+            android:id="@+id/btnbrowse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/getarc_name"
+            android:layout_alignParentTop="true"
+            android:text="@string/btn_browse" />
+
+        <AutoCompleteTextView
+            android:id="@+id/getarc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnbrowse"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:completionThreshold="1"
+            android:imeOptions="actionDone"
+            android:inputType="textUri" />
+
+        <RadioGroup
+            android:id="@+id/getarc_format_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/getarc_name"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/getarc_format_rar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/arcopt_rar" />
+
+            <RadioButton
+                android:id="@+id/getarc_format_zip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arcopt_zip" />
+
+            <RadioButton
+                android:id="@+id/getarc_format_rar4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arcopt_rar4" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/getarc_setpsw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/getarc_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/arcopt_password" />
+
+        <CheckBox
+            android:id="@+id/getarc_delfiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/getarc_format_group"
+            android:layout_alignLeft="@+id/getarc_format_group"
+            android:layout_marginTop="15dp"
+            android:text="@string/arcopt_delete" />
+
+        <CheckBox
+            android:id="@+id/getarc_solid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/getarc_delfiles"
+            android:layout_alignLeft="@+id/getarc_format_group"
+            android:text="@string/arcopt_solid" />
+    </RelativeLayout>
+</ScrollView>

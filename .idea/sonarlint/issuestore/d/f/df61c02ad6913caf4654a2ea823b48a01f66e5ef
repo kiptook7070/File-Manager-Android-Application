@@ -1,0 +1,31 @@
+
+^
+java:S1126|"BReplace this if-then-else statement by a single method invocation.(ëû®f8Æª³€Ê.
+l
+java:S1871¶"IThis case's code block is the same as the block for the case on line 150.(„Œ¶“úÿÿÿÿ8Æª³€Ê.
+A
+java:S1659g"$Declare "tvName" on a separate line.(÷‹‰Û8Ô­ª€Ê.
+E
+java:S1604P"(Make this anonymous inner class a lambda(à³œÁ8Ô­ª€Ê.
+~
+java:S14889"bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(Ûóşx8Ô­ª€Ê.
+E
+java:S1125T"(Remove the literal "true" boolean value.(àÍ¯ª8Ô­ª€Ê.
+F
+java:S3398…"#Move this method into "ViewHolder".(Œæ—šøÿÿÿÿ8Æª³€Ê.
+m	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë›ş’8Ô­ª€Ê.
+–
+java:S1319/"tThe type of the "arrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(Ş˜æ¬ûÿÿÿÿ8Ô­ª€Ê.
+S
+java:S1128"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8Ô­ª€Ê.
+F	java:S108æ")Either remove or fill this block of code.(”ı¾8Ô­ª€Ê.
+_
+java:S1126T"BReplace this if-then-else statement by a single method invocation.(àÍ¯ª8Ô­ª€Ê.
+T
+java:S1128 "2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ı‘Ë€Ê.
+H
+java:S1659g"+Declare "tvDescription" on a separate line.(÷‹‰Û8Ô­ª€Ê.
+E
+java:S1604B"(Make this anonymous inner class a lambda(«õè—8Ô­ª€Ê.
+E
+java:S1604I"(Make this anonymous inner class a lambda(Ö¹™º8Ô­ª€Ê.

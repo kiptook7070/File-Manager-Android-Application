@@ -1,0 +1,9 @@
+
+—
+java:S1845"|Rename field "cancel" to prevent any misunderstanding/clash with method "cancel" defined in superclass "android.app.Dialog".(ÂÔÄÌùÿÿÿÿ
+m
+java:S1104"RMake cancel a static final constant or non-public and provide accessors if needed.(ÂÔÄÌùÿÿÿÿ
+U
+java:S1161":Add the "@Override" annotation above this method signature(úùóüÿÿÿÿ
+=
+java:S1604!"(Make this anonymous inner class a lambda(è×úd

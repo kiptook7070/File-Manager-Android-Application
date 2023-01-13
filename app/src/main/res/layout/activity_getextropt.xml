@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_id" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/btnpanel" android:layout_alignParentTop="true">
+        <RelativeLayout android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/getextr_destpathtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/extropt_destpath" android:layout_above="@+id/getextr_destpath" android:layout_alignParentLeft="true" android:onClick="btndestpath_clicked" style="?android:attr/buttonStyleSmall"/>
+            <Button android:id="@+id/btnbrowse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_browse" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:onClick="btnbrowse_clicked"/>
+            <AutoCompleteTextView android:id="@+id/getextr_destpath" android:layout_width="wrap_content" android:layout_height="wrap_content" android:completionThreshold="1" android:layout_below="@+id/btnbrowse" android:layout_alignLeft="@+id/getextr_destpathtitle" android:layout_alignParentRight="true" android:inputType="textUri" android:imeOptions="actionDone"/>
+            <RadioGroup android:id="@+id/getextr_overwrite_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/getextr_destpath" android:layout_alignParentLeft="true">
+                <RadioButton android:id="@+id/getextr_overwrite_ask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/extropt_overwrite_ask"/>
+                <RadioButton android:id="@+id/getextr_overwrite_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/extropt_overwrite_all"/>
+                <RadioButton android:id="@+id/getextr_overwrite_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/extropt_overwrite_skip"/>
+            </RadioGroup>
+            <CheckBox android:id="@+id/getextr_keepbroken" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/extropt_keep_broken" android:layout_below="@+id/getextr_overwrite_group" android:layout_alignParentLeft="true"/>
+            <CheckBox android:id="@+id/getextr_nopath" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/extropt_nopath" android:layout_below="@+id/getextr_keepbroken" android:layout_alignParentLeft="true"/>
+            <CheckBox android:id="@+id/getextr_arctosubfolders" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/extropt_to_subfolders" android:layout_below="@+id/getextr_nopath" android:layout_alignParentLeft="true"/>
+            <CheckBox android:id="@+id/getextr_displextracted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/extropt_display_extracted" android:layout_below="@+id/getextr_arctosubfolders" android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:id="@+id/btnpanel" style="@style/ButtonPanelOuterLayout">
+        <LinearLayout style="@style/ButtonPanelInnerLayout">
+            <Button android:id="@+id/btncancel" android:text="@string/btn_cancel" android:onClick="btncancel_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/btnsave" android:text="@string/btn_save_settings" android:onClick="btnsave_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/btnhelp" android:text="@string/btn_help" android:onClick="btnhelp_clicked" style="@style/ButtonPanelButton"/>
+            <Button android:id="@+id/btnok" android:text="@string/btn_ok" android:onClick="btnok_clicked" style="@style/ButtonPanelButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

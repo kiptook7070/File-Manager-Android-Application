@@ -1,0 +1,41 @@
+
+^
+java:S1126¡"BReplace this if-then-else statement by a single method invocation.(é»…ÿÿÿÿÿ
+^
+java:S1126"BReplace this if-then-else statement by a single method invocation.(é»…ÿÿÿÿÿ
+>
+java:S1185c"(Remove this method to simply inherit it.(ÒÊÏ·
+N
+java:S1068("3Remove this unused "convertViewMime" private field.(Š™²ûùÿÿÿÿ
+e
+java:S1871è"IThis case's code block is the same as the block for the case on line 201.(„Œ¶“úÿÿÿÿ
+o	java:S115Y"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óâŠ
+U
+java:S1135¼"2Complete the task associated to this TODO comment.(ş°Şşÿÿÿÿ8ÿª£¯É.
+P
+java:S1481m".Remove this unused "rarHolder" local variable.(×íÁĞûÿÿÿÿ8ô¯¯É.
+G
+java:S1068,",Remove this unused "callBack" private field.(¥åö”ıÿÿÿÿ
+?	java:S108—")Either remove or fill this block of code.(”ı¾
+r
+java:S1450,"WRemove the "callBack" field and declare it as a local variable in the relevant methods.(¥åö”ıÿÿÿÿ
+H
+java:S1068)"2Remove this unused "convertViewRar" private field.(«Ùèø
+t	java:S115Z"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î¬˜Àşÿÿÿÿ
+O
+java:S1905o"4Remove this unnecessary cast to "FileSystemElement".(ú˜Æøÿÿÿÿ
+P
+java:S1161c":Add the "@Override" annotation above this method signature(ÒÊÏ·
+t	java:S115["ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù½ œşÿÿÿÿ
+Q
+java:S1068'"6Remove this unused "convertViewDossier" private field.(“é¡ûÿÿÿÿÿ
+m
+java:S3776k"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(´ªìéÿÿÿÿÿ
+U
+java:S1161k":Add the "@Override" annotation above this method signature(´ªìéÿÿÿÿÿ
+K
+java:S1172¨"(Remove this unused method parameter "z".(º£¬ìıÿÿÿÿ8È†¥¯É.
+P
+java:S1161g":Add the "@Override" annotation above this method signature(áõ²ÿ
+W
+java:S1144¬"9Remove this unused private "generateImageFromPdf" method.(˜–Ï™8ÿª£¯É.

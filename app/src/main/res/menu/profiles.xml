@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profmenu_default" android:title="@string/profiles_menu_default"/>
+    <item android:id="@+id/profmenu_add" android:title="@string/profiles_menu_save"/>
+    <item android:id="@+id/profmenu_organize" android:title="@string/profiles_menu_organize"/>
+</menu>

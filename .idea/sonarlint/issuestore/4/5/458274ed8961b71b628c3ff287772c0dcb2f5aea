@@ -1,0 +1,24 @@
+
+\	java:S899q";Do something with the "boolean" value returned by "delete".(²Œ­ûÿÿÿÿ8†”‘ÿÉ.
+p
+java:S4042q"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(²Œ­ûÿÿÿÿ8†”‘ÿÉ.
+F
+java:S1604‹"(Make this anonymous inner class a lambda(©ˆõÓ8óôšÿÉ.
+^
+java:S1117Š"@Rename "fileActivity" which hides the field declared at line 26.(„¤º8è›ÿÉ.
+V
+java:S1161*":Add the "@Override" annotation above this method signature(Á…‘8ÜèÃ®É.
+n
+java:S1104"XMake compressDiag a static final constant or non-public and provide accessors if needed.(Ø¡Ğ‡
+g
+java:S2147i"ECombine this catch with the one at line 103, which has the same body.(ü¯¬±üÿÿÿÿ8†”‘ÿÉ.
+K
+java:S1604ƒ"(Make this anonymous inner class a lambda(¯—µøÿÿÿÿ8†”‘ÿÉ.
+W
+java:S1161@":Add the "@Override" annotation above this method signature(©¦±‡8†”‘ÿÉ.
+J
+java:S16047"(Make this anonymous inner class a lambda(Àí÷×øÿÿÿÿ8†”‘ÿÉ.
+J
+java:S16040"(Make this anonymous inner class a lambda(½© êùÿÿÿÿ8ÜèÃ®É.
+b	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(òÈş’8†”‘ÿÉ.
+]	java:S125E"<This block of commented-out lines of code should be removed.(¸¦œüÿÿÿÿ8÷±ªƒÊ.

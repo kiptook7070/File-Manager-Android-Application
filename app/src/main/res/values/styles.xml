@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="colorPrimary">@color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="colorPrimary">@color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+
+
+
+    <style name="Ripple">
+        <item name="android:orientation">@null</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+
+    </style>
+
+
+    <style name="TextAppearance.Compat.Notification.Media"></style>
+
+    <style name="TextAppearance.Compat.Notification.Time.Media"></style>
+
+    <style name="DefaultTextViewStyle"></style>
+
+    <style name="Dialog">
+
+    </style>
+
+    <style name="TextAppearance.Compat.Notification.Title.Media"></style>
+
+    <style name="CustomProgressBarHorizontal">
+        <item name="android:progressDrawable">@drawable/progress_drawable</item>
+    </style>
+
+    <style name="TextAppearance.Compat.Notification.Line2"></style>
+
+    <style name="TextAppearance.Compat.Notification.Line2.Media"></style>
+
+    <style name="TextAppearance.Compat.Notification.Info.Media"></style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style name="ButtonPanelOuterLayout">
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="ButtonPanelOuterLayoutDialog">
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+    <style name="ButtonPanelInnerLayout">
+        <item name="android:orientation">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">?android:attr/dividerHorizontal</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+    <style name="ButtonPanelButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">54dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="status_text_color">?android:attr/textColorSecondary</item>
+        <item name="status_background_color">#ffd0d0d0</item>
+    </style>
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="status_text_color">?android:attr/textColorSecondary</item>
+        <item name="status_background_color">#ff404040</item>
+    </style>
+    <style name="LightTheme_DialogWhenLarge">
+    </style>
+    <style name="DarkTheme_DialogWhenLarge">
+    </style>
+    <style name="LightTheme_Dialog">
+    </style>
+    <style name="DarkTheme_Dialog">
+    </style>
+
+
+
+
+
+</resources>
